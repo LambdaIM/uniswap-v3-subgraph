@@ -5,13 +5,12 @@ import { Bundle, Pool, Token } from './../types/schema'
 import { ADDRESS_ZERO, ONE_BD, ZERO_BD, ZERO_BI } from './constants'
 
 const WETH_ADDRESS = '0x4200000000000000000000000000000000000006'
-const LAMBDA_ADDRESS = '0x99344442308EDb5Ee0b6cca5e54D1355679357Fa'
 const USDC_ADDRESS = '0x026C48C2976EF967ad92439C20389fFE5110A043'
 const USDC_WETH_03_POOL = ADDRESS_ZERO
 
 // token where amounts should contribute to tracked volume and liquidity
 // usually tokens that many tokens are paired with s
-export const WHITELIST_TOKENS: string[] = [WETH_ADDRESS, LAMBDA_ADDRESS, USDC_ADDRESS]
+export const WHITELIST_TOKENS: string[] = [WETH_ADDRESS, USDC_ADDRESS]
 
 const STABLE_COINS: string[] = [USDC_ADDRESS]
 
